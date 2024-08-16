@@ -5,7 +5,7 @@ Este proyecto es una página web informativa sobre Antigua Guatemala y sus activ
 ## Enlace al sitio web
 
 Puedes visitar el sitio web publicado en el siguiente enlace:
-[Antigua Guatemala](https://hojatrabajo.netlify.app/)
+[Antigua Guatemala](https://antiguabootstrap.netlify.app/)
 
 ## Desarrollado por
 
