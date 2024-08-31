@@ -92,6 +92,19 @@ th, td {
     height: 500px; 
     object-fit: cover; 
 }
+.imag-ind img {
+    width: 50%;
+    height: 250px; 
+    object-fit: cover; 
+}
+.comment {
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+}
 
 @media (max-width: 576px) {
     .container {

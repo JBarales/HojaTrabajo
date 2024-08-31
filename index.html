@@ -53,7 +53,7 @@
 
     <section id="galeria">
         <h2>Galería de Imágenes</h2>
-        <div class="carousel-inner">
+        <div class="imag-ind">
             <img src="https://c8.alamy.com/comp/2BEGRRX/the-name-of-antigua-on-colorful-sign-letters-on-the-roof-garden-of-a-hotel-in-antigua-guatemala-2BEGRRX.jpg" alt="Antigua">
             <img src="https://media.istockphoto.com/id/1137146624/es/foto/paisaje-urbano-de-antigua-city-guatemala.jpg?s=612x612&w=0&k=20&c=oze0jqAfWM0Thso4bOfnw_mJY_51knVAjF3Ss9oy8Uc=" alt="Calle empedrada de Antigua">
             <img src="https://blog.uber-cdn.com/cdn-cgi/image/width=2160,quality=80,onerror=redirect,format=auto/wp-content/uploads/2019/03/5-iglesias-en-Antigua-Guatemala-llenas-de-historia-1024x512.png" alt="Iglesia de antigua">
@@ -73,10 +73,56 @@
         </ul>
     </section>
 
+    <div class="container mt-5">
+        <h2>Comentarios</h2>
+        <div id="commentsContainer"></div>
+    </div>
+
+    <div class="container mt-5">
+        <h2>Formulario de Contacto</h2>
+        <form id="contactForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="birthdate" class="form-label">Fecha de Nacimiento</label>
+                <input type="date" class="form-control" id="birthdate" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        <!-- Modal de Confirmación -->
+        <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="confirmationModalLabel">Confirmación</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ¡Tu información se ha registrado correctamente!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>Humberto Barales 9490-20-16264.</p>
     </footer>
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>
