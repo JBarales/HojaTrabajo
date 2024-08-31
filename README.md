@@ -1,6 +1,6 @@
 # Antigua Guatemala
 
-Este proyecto es una página web informativa sobre Antigua Guatemala y sus actividades para Semana Santa. La página incluye secciones sobre la historia, una galería de imágenes, museos y actividades recomendadas durante esta semana en esta ciudad histórica.
+Este proyecto es una página web informativa sobre Antigua Guatemala, sus hoteles, calles y reseñas de todos los lugares disponibles. 
 
 ## Enlace al sitio web
 
