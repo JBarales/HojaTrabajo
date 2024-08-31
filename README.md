@@ -5,7 +5,7 @@ Este proyecto es una página web informativa sobre Antigua Guatemala, sus hotele
 ## Enlace al sitio web
 
 Puedes visitar el sitio web publicado en el siguiente enlace:
-[Antigua Guatemala](https://hojatrabajo.netlify.app/)
+[Antigua Guatemala](https://antiguajavascript.netlify.app/)
 
 ## Desarrollado por
 
